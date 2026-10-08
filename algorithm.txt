@@ -1,0 +1,19 @@
+
+SUDOKU SOLVER ALGORITHM
+
+1. Start the program.
+2. Initialize a 9x9 Sudoku grid.
+3. Use 0 to represent empty cells.
+4. Find an empty cell in the grid.
+5. Try numbers from 1 to 9.
+6. Check the row for duplicate numbers.
+7. Check the column for duplicate numbers.
+8. Check the 3x3 box for duplicate numbers.
+9. If the number is valid, place it in the cell.
+10. Solve the remaining cells recursively.
+11. If no number works, reset the cell and backtrack.
+12. When all cells are filled, display the solution.
+13. Stop the program.
+
+Algorithm: Backtracking
+Language: C++
